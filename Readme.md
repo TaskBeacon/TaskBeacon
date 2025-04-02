@@ -19,11 +19,11 @@
 ### 🔗 From GitHub (recommended)
 
 ```bash
-pip install git+https://github.com/zh1peng/psyflow.git
+pip install git+ssh://git@github.com/TaskBeacon/psyflow.git 
 ```
 ### Or for editable local development:
 ``` bash
-git clone https://github.com/zh1peng/psyflow.git
+git clone https://github.com/TaskBeacon/psyflow.git
 cd psyflow
 pip install -e .
 ```

@@ -3,7 +3,7 @@ name = "psyflow"
 version = "0.1.0"
 description = "A lightweight utility library for building PsychoPy experiments."
 authors = [
-    { name="Zhipeng Zhang", email="your@email.com" }
+    { name="Zhipeng Cao", email="zhipeng30@foxmail.com" }
 ]
 readme = "README.md"
 license = { text = "MIT" }
