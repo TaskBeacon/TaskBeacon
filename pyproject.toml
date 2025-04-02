@@ -1,0 +1,19 @@
+[project]
+name = "psyflow"
+version = "0.1.0"
+description = "A lightweight utility library for building PsychoPy experiments."
+authors = [
+    { name="Zhipeng Zhang", email="your@email.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["psychopy", "experiment", "cognitive", "utilities"]
+requires-python = ">=3.8"
+dependencies = [
+    "psychopy",
+    "numpy"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
