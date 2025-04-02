@@ -1,8 +1,7 @@
 import os
-from psychopy import visual, event
-from TaskFunc import img_path  # Assuming img_path is defined in __init__.py
+from psychopy import visual, event, core
 
-def ShowInstructions(win, use_image=True, text=None, image_file='MID_Instructions0.bmp', continue_key='space'):
+def ShowInstructions(win, use_image=True, image_file='path/to/img.bmp', text=None,  continue_key='space'):
     """
     Displays instructions either as text or an image.
 
